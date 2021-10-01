@@ -134,7 +134,7 @@ function compile() {
 # Zipping
 function zipping() {
     cd AnyKernel3 || exit 1
-    zip -r9 Nexus-EAS-v9.1-old-${DEVICE}-KERNEL-${TANGGAL}.zip *
+    zip -r9 Unknown-kernel-0.1-old-${DEVICE}-KERNEL-${TANGGAL}.zip *
     cd ..
 }
 clone
